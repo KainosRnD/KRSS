@@ -1,0 +1,14 @@
+.feedEkList{width:512px; margin:auto; list-style:none outside none;background-color:black; padding:4px 6px; color:white;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    		font-weight: 500 !important;
+    		line-height: 1.1 !important; }
+.feedEkList li{border-bottom:1px solid #D3CAD7; padding:5px;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    		font-weight: 500;
+    		line-height: 1.1; 
+    		color:white;
+    		text-decoration:none; }
+.itemTitle a{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    		font-weight: 500 !important;
+    		line-height: 1.1 !important; 
+    		color:white;
+    		text-decoration:none; }
+.itemDate{font-size:11px;color:#AAAAAA;} 

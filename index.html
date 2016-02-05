@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <title>FeedEk jQuery RSS/ATOM Feed Plugin Demo | jQuery RSS/ATOM Parser Plugin FeedEk Demo</title>
+    <link href="css/FeedEk.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://momentjs.com/downloads/moment-with-langs.min.js"></script>
+    <script type="text/javascript" src="js/FeedEk.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#divRss').FeedEk({
+                FeedUrl: 'http://kainos.com/news/feed/',
+                MaxCount: 2,
+                ShowDesc: true,
+                ShowPubDate: true,
+                DescCharacterLimit: 250
+            });
+
+            $(document).scrollTop($(document).height());
+        });
+
+    </script>
+    <style>
+        body{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;background-color: black; color: white; font-size: 13px;line-height: 17px;}
+        .rssDiv{margin:auto; width:100%; color:white; background-color: black;}
+        ul{width: 574px !important;}
+    </style>
+</head>
+<body>
+        <div id="divRss"></div>
+        </div>
+
+</body>
+
+</html>
